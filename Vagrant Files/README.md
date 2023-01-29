@@ -4,7 +4,7 @@
 
 
 - Steps for installing Vagrant:
-- 
+
 Update system:
 ```
 sudo apt update
