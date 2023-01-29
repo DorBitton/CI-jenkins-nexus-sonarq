@@ -24,3 +24,23 @@ In our <a href="https://github.com/DorBitton/CI-jenkins-nexus-sonarq/tree/main/V
 Vagrant up
 ```
 Will set up our three servers automaticly with static internal IPS. (We might get an error regarding IP range invalid, just adjust the IP accordingly)
+
+
+## Github
+
+We will clone a repository and set it as the working repository. Can replace branch name + links to any repository.
+```
+git clone -b ci-jenkins https://github.com/DorBitton/vprociproject.git
+
+git remote set-url origin git@github.com:DorBitton/vprociproject.git
+
+git branch -c main
+
+git checkout main
+
+git push --all origin
+
+git config --global user.email "youremail@example.com"
+
+git config --global user.name "yourUserName"
+```
