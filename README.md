@@ -1,6 +1,6 @@
 ## Continuous Integration using Jenkins, Nexus, Sonarqube &amp; Slack.
 
-- In this project I will try to demonstrate a production enviroment pipeline for continuous integration using the following:
+In this project I will try to demonstrate a production enviroment pipeline for continuous integration using the following:
 * Jenkins: For building the pipeline
 * Nexus: For building the Artifact
 * SonarQube: For code testing
