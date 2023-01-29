@@ -1,8 +1,5 @@
 ## Vagrant
 
- <img src="" alt="Terminal">
-
-
 - Steps for installing Vagrant:
 
 Update system:
