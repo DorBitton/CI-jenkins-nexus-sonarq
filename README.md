@@ -14,3 +14,12 @@ Our workflow:
 
  <img src="https://i.ibb.co/xmM4vzG/Screenshot-from-2023-01-29-05-46-09.png" alt="Terminal">
  
+
+
+## Vagrant
+
+In our Vagrant folder we can find how to Install Vagrant. After installed, download the Vagrant File and open a Terminal in that location:
+```
+Vagrant up
+```
+Will set up our three servers automaticly with static internal IPS. (We might get an error regarding IP range invalid, just adjust the IP accordingly)
