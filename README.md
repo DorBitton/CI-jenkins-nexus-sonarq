@@ -29,14 +29,34 @@ Will set up our three servers automaticly with static internal IPS. (We might ge
 ## Github
 
 We will clone a repository and set it as the working repository. Can replace branch name + links to any repository.
-```
-git clone -b ci-jenkins https://github.com/DorBitton/vprociproject.git
 
-git remote set-url origin git@github.com:DorBitton/vprociproject.git
+Connect your device to github account:
+
+Open terminal:
+```
+ssh-keygen
+
+```
+This created a public and private key, copy the public key to your github account: Account -> settings -> ssh and gpg keys -> new ssh key -> create key and post public key. 
+
+Run:
+``` 
+ssh -T git@github.com
+```
+Now create a folder for the repository, and now the migration part:
+
+```
+git clone -b ci-jenkins https://github.com/DorBitton/vprociproject.git (this is the url of the repository you wish to clone)
+
+cd *foldername
+
+git remote set-url origin git@github.com:DorBitton/vprociproject.git (this is the url of the repository you wish to clone into)
 
 git branch -c main
 
 git checkout main
+
+git checkout ci-jenkins
 
 git push --all origin
 
@@ -44,6 +64,3 @@ git config --global user.email "youremail@example.com"
 
 git config --global user.name "yourUserName"
 ```
-
-## Jenkins settings:
-
