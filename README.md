@@ -37,7 +37,7 @@ Open terminal:
 ssh-keygen
 
 ```
-This created a public and private key, copy the public key to your github account: Account -> settings -> ssh and gpg keys -> new ssh key -> create key and post public key. 
+This created a public and private key, copy the public key to your github account: account -> settings -> ssh and gpg keys -> new ssh key -> create key and post public key. 
 
 Run:
 ``` 
@@ -64,3 +64,4 @@ git config --global user.email "youremail@example.com"
 
 git config --global user.name "yourUserName"
 ```
+It should be in sync now and we are able to push code into github. 
