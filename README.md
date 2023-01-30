@@ -64,4 +64,4 @@ git config --global user.email "youremail@example.com"
 
 git config --global user.name "yourUserName"
 ```
-It should be in sync now and we are able to push code into github. 
+It should be in sync now and we are able to push code into the repository. 
