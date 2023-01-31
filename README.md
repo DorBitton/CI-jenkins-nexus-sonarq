@@ -71,14 +71,14 @@ It should be in sync now and we are able to push code into the repository.
 ## Running the pipeline
 
 After setting up all of the plugins and servers connections, every time we push a code to our github repository a build proccess will start in jenkins.
-The build will build the app Artifact which we can use to deploy our app. We will see it done in the Continuous Delivery project. 
+Nexus will build the app Artifact using Maven(JAVA APP) which we can use to deploy our app.
 
 - Jenkins build after code changes:
- <img src="https://i.ibb.co/svdBtzL/Screenshot-from-2023-01-30-05-55-58.png" alt="Terminal">
+ <img src="https://i.ibb.co/MMkPJT9/Screenshot-from-2023-01-31-03-06-17.png" alt="Terminal">
 
 - SonarQube code tests:
- <img src="https://i.ibb.co/J2B99Y5/Screenshot-from-2023-01-30-05-56-56.png" alt="Terminal">
+ <img src="https://i.ibb.co/PZHHDKK/Screenshot-from-2023-01-31-03-06-27.png" alt="Terminal">
 
 - Slack notification if build was successful or not:
- <img src="https://i.ibb.co/YPhPKsB/Screenshot-from-2023-01-30-05-57-07.png" alt="Terminal">
+ <img src="https://i.ibb.co/YBfsjKM/Screenshot-from-2023-01-31-03-07-49.png" alt="Terminal">
 
