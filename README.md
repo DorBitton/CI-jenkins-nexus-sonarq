@@ -8,7 +8,7 @@ Vagrant will set up three machines:
 
 Other tools;
 - Github
-- Slacks: Using as a notification system.(Can be replaced with Microsoft teams, emails, etc..
+- Slacks: Using as a notification system.(Can be replaced with Microsoft teams, emails, etc.. )
 
 Our workflow:
 
