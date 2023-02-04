@@ -12,7 +12,7 @@ Other tools;
 
 Our workflow:
 
- <img src="https://i.ibb.co/xmM4vzG/Screenshot-from-2023-01-29-05-46-09.png" alt="Terminal">
+ <img src="https://github.com/DorBitton/CI-jenkins-nexus-sonarq/blob/main/images/68747470733a2f2f692e6962622e636f2f684864445143772f53637265656e73686f742d66726f6d2d323032332d30312d32332d30302d34302d33372e706e67.png?raw=true" alt="Terminal">
  
 
 
@@ -74,11 +74,11 @@ After setting up all of the plugins and servers connections, every time we push 
 Nexus will build the app Artifact using Maven(JAVA APP) which we can use to deploy our app.
 
 - Jenkins build after code changes:
- <img src="https://i.ibb.co/MMkPJT9/Screenshot-from-2023-01-31-03-06-17.png" alt="Terminal">
+ <img src="https://github.com/DorBitton/CI-jenkins-nexus-sonarq/blob/main/images/68747470733a2f2f692e6962622e636f2f4d4d6b504a54392f53637265656e73686f742d66726f6d2d323032332d30312d33312d30332d30362d31372e706e67.png?raw=true" alt="Terminal">
 
 - SonarQube code tests:
- <img src="https://i.ibb.co/PZHHDKK/Screenshot-from-2023-01-31-03-06-27.png" alt="Terminal">
+ <img src="https://github.com/DorBitton/CI-jenkins-nexus-sonarq/blob/main/images/Screenshot%20from%202023-01-30%2005-56-56.png?raw=true" alt="Terminal">
 
 - Slack notification if build was successful or not:
- <img src="https://i.ibb.co/YBfsjKM/Screenshot-from-2023-01-31-03-07-49.png" alt="Terminal">
+ <img src="https://github.com/DorBitton/CI-jenkins-nexus-sonarq/blob/main/images/68747470733a2f2f692e6962622e636f2f594266736a4b4d2f53637265656e73686f742d66726f6d2d323032332d30312d33312d30332d30372d34392e706e67.png?raw=true" alt="Terminal">
 
