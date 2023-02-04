@@ -1,7 +1,7 @@
 ## Continuous Integration using Jenkins, Nexus, Sonarqube &amp; Slack.
 
 In this project we will be using Vagrant to set up multiple VM's to run our own test lab.
-Vagrant will set up three machines with everything we needed installed using Bash scripting:
+Vagrant will set up three machines with everything we need installed using Bash scripting:
 - Jenkins server: Jenkins will be used for building the pipeline
 - Nexus server: Nexus will be used to download dependencies and building the Artifact
 - SonarQube server: SonarQube will test the code and provide us Quality Gates to allow or deny the build.
