@@ -77,7 +77,7 @@ Nexus will build the app Artifact using Maven(JAVA APP) which we can use to depl
  <img src="https://github.com/DorBitton/CI-jenkins-nexus-sonarq/blob/main/images/68747470733a2f2f692e6962622e636f2f4d4d6b504a54392f53637265656e73686f742d66726f6d2d323032332d30312d33312d30332d30362d31372e706e67.png?raw=true" alt="Terminal">
 
 - SonarQube code tests:
- <img src="https://github.com/DorBitton/CI-jenkins-nexus-sonarq/blob/main/images/Screenshot%20from%202023-01-30%2005-56-56.png?raw=true" alt="Terminal">
+ <img src="https://github.com/DorBitton/CI-jenkins-nexus-sonarq/blob/main/images/Screenshot%20from%202023-01-31%2003-06-27.png?raw=true" alt="Terminal">
 
 - Slack notification if build was successful or not:
  <img src="https://github.com/DorBitton/CI-jenkins-nexus-sonarq/blob/main/images/68747470733a2f2f692e6962622e636f2f594266736a4b4d2f53637265656e73686f742d66726f6d2d323032332d30312d33312d30332d30372d34392e706e67.png?raw=true" alt="Terminal">
